@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  background-color: var(--darkest-bg-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 0 8px;
+}
+
+.off {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.on {
+}
+
+.search-btn-container {
+  position: absolute;
+  right: 16px;
+}

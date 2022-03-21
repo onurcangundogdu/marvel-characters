@@ -1,0 +1,30 @@
+.search {
+}
+
+.header {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.results {
+  background-color: var(--darker-bg-color);
+  min-height: 100vh;
+  color: #fff;
+}
+
+.results h3 {
+  font-size: var(--font-md);
+  font-weight: 300;
+  margin-left: 16px;
+}
+
+.result-item {
+  background-color: var(--dark-bg-color);
+}
+
+.result-link {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,9 @@
+.input {
+  outline: none;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-family: inherit;
+  flex: 1;
+}

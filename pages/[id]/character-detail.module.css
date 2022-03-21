@@ -1,0 +1,37 @@
+.header {
+  position: relative;
+}
+
+.header-image {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.back-btn-container {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.back-btn {
+  color: #fff;
+}
+
+.main {
+  background-color: var(--detail-bg-color);
+  padding: 16px 0;
+}
+
+.property {
+  padding-left: 8px;
+  margin-bottom: var(--whitespace-md);
+}
+
+.property h2 {
+  color: var(--primary-color);
+  font-size: var(--font-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: var(--whitespace-xs);
+}

@@ -1,9 +1,45 @@
-html,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  --primary-color: #e5151f;
+  --darkest-bg-color: #020202;
+  --darker-bg-color: #282c30;
+  --dark-bg-color: #3c3f43;
+  --detail-bg-color: #182a36;
+  --white-color: #fff;
+
+  --font-xs: 1rem;
+  --font-sm: 1.2rem;
+  --font-md: 1.6rem;
+  --font-lr: 2rem;
+  --font-xl: 2.4rem;
+
+  --whitespace-xs: 0.4rem;
+  --whitespace-sm: 0.8rem;
+  --whitespace-md: 1.2rem;
+  --whitespace-lr: 1.6rem;
+  --whitespace-xl: 2.4rem;
+
+  --header-height: 5rem;
+}
+
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--darkest-bg-color);
+  font-size: var(--font-md);
+  color: var(--white-color);
 }
 
 a {
@@ -11,6 +47,18 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+ul {
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: var(--font-md);
+  padding: var(--whitespace-xs) var(--whitespace-sm);
+  min-width: 5rem;
 }

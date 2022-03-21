@@ -1,0 +1,18 @@
+.title {
+  position: absolute;
+  bottom: var(--whitespace-xl);
+  left: var(--whitespace-xl);
+  padding: var(--whitespace-xs) var(--whitespace-sm);
+  background-color: var(--white-color);
+  color: var(--darkest-bg-color);
+  transform: skewX(-15deg);
+  font-size: var(--font-md);
+  font-weight: 700;
+  min-width: 15rem;
+  text-align: center;
+}
+
+.title span {
+  display: inline-block;
+  transform: skewX(15deg);
+}
